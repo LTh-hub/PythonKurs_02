@@ -1,4 +1,4 @@
-# game.py
+# game_with_two_enemie_classes.py
 #
 # Lektionspass 2 (timme 2 - sista kvarten), tisdag 08-april-2025
 #
