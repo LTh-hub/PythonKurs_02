@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lars Thomsson – Portfolio</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f4f4f4; margin: 0; padding: 0;">
+
+  <div style="max-width: 800px; margin: 50px auto; background-color: white; padding: 30px; box-shadow: 0 0 10px rgba(0,0,0,0.1); border-radius: 10px;">
+    
+    <div style="text-align: center;">
+        <!--
+        #<img src="https://via.placeholder.com/150" alt="Profile Picture" style="border-radius: 50%; border: 3px solid #ddd;">
+        #<img src="larsth.jpg" alt="Profile Picture" style="border-radius: 50%; border: 3px solid #ddd;">
+    -->
+        <img src="{{ url_for('static', filename='larsth.jpg') }}" alt="Mitt foto" style="border-radius: 10px; width: 300px; box-shadow: 0 0 10px rgba(0,0,0,0.3);">
+        <h1 style="margin-top: 20px;">Lars Thomsson</h1>
+        <p style="color: #555;">Research Engineer & Technical Specialist</p>
+    </div>
+
+    <hr style="margin: 30px 0;">
+
+    <h2 style="color: #333;">Skills</h2>
+    <ul style="list-style: none; padding-left: 0; color: #444;">
+      <li>✓ Process control & automation</li>
+      <li>✓ Drive systems and electronics</li>
+      <li>✓ Measurement technology & calibration</li>
+      <li>✓ Python, mathematical modeling, and analysis</li>
+      <li>✓ Database handling (historical data, control systems)</li>
+    </ul>
+
+  </div>
+
+</body>
+</html>
